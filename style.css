@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background-color: #2D2D2D;
+    /* display: flex; */
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+#popup {
+    width: 90vw;
+    max-width: 450px;
+    height: 500px;
+    border-radius: 6px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #7A548A;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+#cake {
+    position: absolute;
+    bottom: 50px;
+    z-index: 4;
+}
+
+#dish {
+    position: absolute;
+    bottom: 40px;
+    z-index: 3;
+}
+
+#table {
+    position: absolute;
+    bottom: -100px;
+    z-index: 2;
+}
+
+#text {
+    text-align: center;
+    color: white;
+    z-index: 10;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#years {
+    font-size: 5rem;
+    position: relative;
+}
+
+#ord {
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+/* body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+svg #line {
+    fill: none;
+    stroke: #e00000;
+    stroke-width: 1.5;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    stroke-miterlimit: 4;
+
+    stroke-opacity: 1;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: dash 3s linear infinite;
+}
+
+svg #point {
+    fill: none;
+    stroke: #f00000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: .1;
+    stroke-opacity: 1;
+    stroke-dasharray: .0001, .9999;
+    stroke-dashoffset: 1;
+    animation: dash 3s linear infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1;
+    }
+
+    80% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+svg:first-child{
+    background-color: #2D2D2D;
+    margin-bottom:10vh;
+}

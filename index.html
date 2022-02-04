@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio src="BirthdayWish.mp3" autoplay loop></audio>
+    <div id="app">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svg5" version="1.1" viewBox="-5 -5 278 56">
+                <filter id="blur">
+                    <feGaussianBlur stdDeviation="1.6" />
+                </filter>
+                <g id="layer1" transform="translate(29.1 -127.42)">
+                    <path id="line"
+                        d="M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36"
+                        pathLength="1" />
+                </g>
+                <g id="layer2" transform="translate(29.1 -127.42)">
+                    <path filter="url(#blur)" id="point"
+                        d="M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36"
+                        pathLength="1" />
+                </g>
+            </svg>
+        <div id="popup">
+            <div id="text">
+                <h1>Happy</h1>
+                <h1 id="years">{{yearCounter}}<span id="ord">{{ord}}</span></h1>
+                <h1>Birthday Naina</h1>
+            </div>
+            <svg id="cake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                style="isolation:isolate" viewBox="554.022 463 172 144" width="172" height="144">
+                <g>
+                    <g>
+                        <ellipse vector-effect="non-scaling-stroke" cx="640.0220755799722" cy="582.4999999999999" rx="86"
+                            ry="24.5" fill="rgb(238,238,238)" />
+                        <rect x="554.022" y="522.5" width="172" height="60" transform="matrix(1,0,0,1,0,0)"
+                            fill="rgb(238,238,238)" />
+                    </g>
+                    <g>
+                        <ellipse vector-effect="non-scaling-stroke" cx="640.0220755799722" cy="522.5" rx="86" ry="24.5"
+                            fill="rgb(238,111,154)" />
+                        <path
+                            d=" M 554.022 522.5 L 554.022 548 Q 569.257 571.44 585.022 556 Q 600.787 540.56 617.022 563 Q 634.608 581.123 651.022 559 Q 667.437 536.877 688.022 559 Q 704.745 569.96 717.022 549 Q 724.586 536.603 726.022 543 L 726.022 522.5 L 554.022 522.5 Z "
+                            fill="rgb(238,111,154)" />
+                    </g>
+                    <g>
+                        <ellipse vector-effect="non-scaling-stroke" cx="639.9999999999999" cy="519.5855855855856"
+                            rx="6.719985291413309" ry="1.9144144144142956" fill="rgb(255,181,107)" />
+                        <ellipse vector-effect="non-scaling-stroke" cx="639.9999999999999" cy="480.91441441441407"
+                            rx="6.719985291413309" ry="1.9144144144142388" fill="rgb(255,181,107)" />
+                        <rect x="633.28" y="480.914" width="13.44" height="38.671" transform="matrix(1,0,0,1,0,0)"
+                            fill="rgb(255,181,107)" />
+                    </g>
+                    <path
+                        d=" M 644 478 Q 639.5 482.875 636 478 C 631.979 472.399 640.75 469.875 640 463 Q 647.478 472.726 644 478 Z "
+                        fill="rgb(245,124,0)" />
+                </g>
+            </svg>
+            <svg id="dish" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                style="isolation:isolate" viewBox="534.044 555.309 211.956 60.383" width="211.956" height="60.383">
+                <ellipse vector-effect="non-scaling-stroke" cx="640.0220755799722" cy="585.5" rx="105.97792442002776"
+                    ry="30.191385445240485" fill="rgb(255,255,255)" />
+            </svg>
+            <svg id="table" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                style="isolation:isolate" viewBox="269.022 498.853 762 269" width="762" height="269">
+                <ellipse vector-effect="non-scaling-stroke" cx="650.0220755799724" cy="633.3526570048309"
+                    rx="338.0000000000001" ry="91.5" fill="rgb(104,175,234)" />
+            </svg>
+        </div>
+        <p style="position: relative;bottom: 0;color: white;text-align: center;">Made with <strong>♡</strong> by Rohit</p>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="app.js"></script>
+</body>
+</html>
